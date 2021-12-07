@@ -32,7 +32,6 @@ const useStyle = makeStyles((theme) => ({
 function App() {
   const classes = useStyle();
   const [modalStyle] = useState(getModalStyle);
-
   const [posts, setPosts] = useState([]);
   const [open, setOpen] = useState(false);
   const [username, setUsername] = useState("");
